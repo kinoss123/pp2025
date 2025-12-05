@@ -39,7 +39,7 @@ class student(obj):
 
     def __str__(self):
         return (
-            "--------------------------\n"
+            "-------------------------- \n"
             + f"Name: {self._name}, ID: {self._id}, DoB: {self.__dob}.\n"
             + "--------------------------"
         )
