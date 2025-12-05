@@ -66,7 +66,7 @@ def input_students():
             student(
                 input("Enter name of student: "),
                 int(input("Enter ID of student: ")),
-                int(input("Enter DoB of student (DD/MM/YYYY): ")),
+                input("Enter DoB of student (DD/MM/YYYY): "),
             )
         )
         print("--------------------------")
